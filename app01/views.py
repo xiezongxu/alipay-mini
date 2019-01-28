@@ -14,7 +14,7 @@ def get_ali_object():
     notify_url = "http://127.0.0.1:8000/page2/"
 
     # 支付完成后，跳转的地址。
-    return_url = "http://127.0.0.1:8000/page2/",
+    return_url = "http://127.0.0.1:8000/page2/"
 
 
     merchant_private_key_path = "keys/pri2048.txt" # 应用私钥
